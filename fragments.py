@@ -12,17 +12,37 @@ ckamen = [
     u'Kamen Rider Drive',
 ]
 
-senparticles_a = [
-    u'Dark', u'Steel', u'Modern', u'Virtua', u'Burning', u'Half', u'Dead', u'Demon', u'Iron',
+senseries = [
+    # main series
+    u'Himitsu Sentai Gorenger', u'J.A.K.Q. Dengekitai', u'Battle Fever J', u'Denshi Sentai Denziman', 
+    u'Taiyo Sentai Sun Vulcan', u'Dai Sentai Goggle-V', u'Kagaku Sentai Dynaman', u'Choudenshi Bioman', 
+    u'Dengeki Sentai Changeman', u'Choushinsei Flashman', u'Hikari Sentai Maskman', u'Choujuu Sentai Liveman',
+    u'Kousoku Sentai Turboranger', u'Chikyu Sentai Fiveman', u'Chōjin Sentai Jetman', u'Kyōryū Sentai Zyuranger', 
+    u'Gosei Sentai Dairanger', u'Ninja Sentai Kakuranger', u'Chōriki Sentai Ohranger', u'Gekisou Sentai Carranger', 
+    u'Denji Sentai Megaranger', u'Seijuu Sentai Gingaman', u'Kyuukyuu Sentai GoGoFive', u'Mirai Sentai Timeranger',
+    u'Hyakujuu Sentai Gaoranger', u'Ninpuu Sentai Hurricaneger', u'Bakuryū Sentai Abaranger', u'Tokusou Sentai Dekaranger', 
+    u'Mahou Sentai Magiranger', u'GoGo Sentai Boukenger', u'Juken Sentai Gekiranger', u'Engine Sentai Go-onger', 
+    u'Samurai Sentai Shinkenger', u'Tensou Sentai Goseiger', u'Kaizoku Sentai Gokaiger', u'Tokumei Sentai Go-Busters',
+    u'Zyuden Sentai Kyoryuger', u'Ressha Sentai ToQger', u'Shuriken Sentai Ninninger'
+    # unofficial series
+    u'Unofficial Sentai Akibaranger'
+    # oddities
+    u'Chō Ninja Tai Inazuma!', u'Sport Ranger', u'Shin Kenjūshi France Five'
 ]
 
-senparticles_b = [
-    u'Neptunia', u'Snap', u'Dash', u'Attorney', u'Conquest', u'Drinker', u'Legacy', u'Fractions', u'Please', u'Within',
-    u'Trading Card Game',
-]
-
-kamparticles_a = [
-    u'Dark', u'Steel', u'Modern', u'Virtua', u'Burning', u'Half', u'Dead', u'Demon', u'Iron',
+kamseries = [
+    # standalone movies
+    u'Shin Kamen Rider: Prologue', u'Kamen Rider ZO', u'Kamen Rider J', u'Kamen Rider World', 
+    u'Kamen Rider: The First', u'Kamen Rider: The Next',
+    # main series
+    u'Kamen Rider', u'Kamen Rider V3', u'Kamen Rider X', u'Kamen Rider Amazon', u'Kamen Rider Stronger', 
+    u'Kamen Rider Skyrider', u'Kamen Rider Super-1', u'Kamen Rider ZX', u'Kamen Rider Black',
+    u'Kamen Rider Black RX', u'Kamen Rider Kuuga', u'Kamen Rider Agito', u'Kamen Rider Ryuki', 
+    u'Kamen Rider 555', u'Kamen Rider Blade', u'Kamen Rider Hibiki', u'Kamen Rider Kabuto', u'Kamen Rider Den-O',
+    u'Kamen Rider Kiva', u'Kamen Rider Decade', u'Kamen Rider W', u'Kamen Rider OOO', u'Kamen Rider Fourze', 
+    u'Kamen Rider Wizard', u'Kamen Rider Gaim', u'Kamen Rider Drive',
+    # oddities
+    u'Masked Rider', u'Kamen Rider: Dragon Knight',
 ]
 
 movie = [
