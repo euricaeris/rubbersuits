@@ -1,156 +1,57 @@
 # -*- coding=utf-8 -*-
 
-franchise_a = [
-    u'Dark', u'Steel', u'Modern', u'Virtua', u'Burning', u'Half', u'Dead', u'Demon', u'Iron',
-    u'Zero', u'Lincoln', u'Rock', u'Guitar', u'Brütal', u'FIFA', u'Madden', u'Street', u'Full', u'Twisted',
-    u'Dungeon', u'Team', u'Hard', u'Mirror’s', u'Love', u'Saints', u'Dragon', u'Black', u'L.A.', u'Mass',
-    u'Night', u'Solar', u'Bad', u'Battle', u'Rhythm', u'Renegade', u'Puzzle', u'Mad', u'Geometry',
-    u'AI', u'Blueberry', u'Red', u'Monster', u'Bit', u'Beat', u'Zombie', u'Tentacle', u'Indigo', u'Cool',
-    u'Alien', u'Mr.', u'Tomb', u'Universe', u'Swarm', u'Frozen', u'Hammer', u'Killing', u'Bullet', u'Baby',
-    u'Divine', u'Beyond', u'Cave', u'Counter', u'Missile', u'Crayon', u'Dangerous', u'Darkest', u'Day of',
-    u'Call of', u'Alpha', u'Prime', u'Earth', u'Chrono', u'Grand', u'Advance', u'Super', u'Total', u'Deadly',
-    u'Desert', u'Unreal', u'Doki Doki', u'Chu Chu', u'Poker', u'Gal', u'Rock of', u'King', u'Donkey',
-    u'Assassin’s', u'Warp', u'War', u'Medal of', u'Jet Set', u'Oregon', u'Mercenary', u'Tecmo', u'Mega',
-    u'Dance Dance', u'Dancing', u'Party', u'S.O.S.', u'Lucky', u'Meat', u'Tiny', u'Face', u'Everyday',
-    u'PixelJunk', u'Angry', u'Little', u'Katawa', u'King of', u'Resident', u'Mario', u'Big', u'Jet',
-    u'Ace', u'End of', u'Space', u'Metal', u'Devil', u'Shin Megami', u'Sonic', u'Spy', u'Pocket', u'Royal',
-    u'Ghost', u'Pipe', u'Tetris', u'World of', u'Old', u'Codename', u'Tekken', u'Real', u'Heavy', u'Dance',
-    u'Bionic', u'Metal Gear', u'Portable', u'Terror', u'Infinity', u'Extreme', u'Castle', u'Wind-up',
-    u'Office', u'Dino', u'Galactic', u'North American', u'Project', u'Ninja', u'Mortal', u'Cosmic',
-    u'Calamity', u'Continuum', u'Otomedius', u'Test', u'Men of', u'Fortune', u'NASCAR', u'Touhou', u'Ridge',
-    u'Rainbow', u'Sim', u'Guilty', u'Silent', u'Fire', u'MLB', u'Wing', u'River City', u'Fatal', u'Samurai',
-    u'Hot', u'Pet', u'Adventure', u'Thunder', u'Lode', u'Incredible', u'Micro', u'Golden', u'Raving',
-    u'Family', u'Close', u'Time', u'Jagged', u'Original', u'Electric', u'Rave', u'Wild', u'Red Dead',
-    u'River', u'Burger', u'High-Res', u'Glory', u'Hidden', u'Loaded', u'Rugby', u'Killer', u'Power',
-    u'X', u'Dr.', u'Carnage', u'Kingdom', u'Ogre', u'Pokémon', u'Moto', u'Elevator', u'Music', u'Curious',
-    u'Dynasty', u'Final', u'Supreme', u'Legendary', u'Road', u'Superbike', u'Motocross', u'Star',
-    u'Trauma', u'Jimmy', u'Age of', u'Jungle', u'Animal', u'Naughty', u'Ancient', u'Smash', u'Item',
-    u'Monday Night', u'Cooking', u'Pro', u'Spirit', u'Exotic', u'System', u'Criminal', u'Mystic', u'Elder',
-    u'Ocarina of', u'Theme', u'Hyperdimension', u'Kirby’s', u'Epic', u'Dante’s', u'Mecha', u'Yoshi’s',
-    u'Paper', u'Ultimate', u'Soda', u'Rogue', u'Frog', u'Papers,', u'The Evil', u'Super Mega', u'The Evil',
-    u'Captain', u'Pix the',
+csentai = [
+    u'Ressha Sentai ToQger',
 ]
 
-franchise_b = [
-    u'Souls', u'Storm', u'Batallion', u'Warfare', u'Tennis', u'Fighter', u'Retribution',
-    u'Life', u'Death', u'Space', u'Blade', u'Brigade', u'Mania', u'Wing', u'Flame', u'F.O.R.C.E.', u'Band',
-    u'Hero', u'Legend', u'Football', u'Tentacle', u'Mansion', u'Heroes', u'Hour', u'Forge', u'Drive',
-    u'Fortress', u'Reset', u'Edge', u'Pachinko', u'Plus', u'Arena', u'Descent', u'Noire', u'Ops', u'Rain',
-    u'Age', u'Effect', u'Sky', u'Company', u'Paradise', u'Heaven', u'Agent', u'World', u'Wars', u'Flight',
-    u'War', u'Garden', u'Hazard', u'Faction', u'Trucks', u'Trip', u'Waves', u'Vision', u'Driver', u'Castle',
-    u'Prophecy', u'Swarm', u'Raider', u'Sandbox', u'Smasher', u'Synapse', u'Fight', u'Trick', u'Dogma',
-    u'Floor', u'Candy', u'Supremacy', u'Land', u'Story', u'Strike', u'Command', u'Physics', u'Shadows',
-    u'High-School Girls', u'Days', u'Messiah', u'Duty', u'Trigger', u'Mario', u'Horses', u'Orchestra',
-    u'Overture', u'City', u'Premonition', u'Tournament', u'Panic', u'Rocket', u'Night', u'Gun', u'Ages',
-    u'Kong', u'Attack', u'Race', u'Planet', u'Creed', u'Men', u'Honor', u'Radio', u'Trail', u'Skull', u'Bowl',
-    u'Girls', u'Man', u'Revolution', u'Stage', u'Party', u'☆  Star', u'Boy', u'Void', u'Mesa', u'Tower',
-    u'Journey', u'Flow', u'Shooter', u'Eden', u'Monsters', u'Wings', u'Birds', u'Big Planet', u'Shoujo',
-    u'Evil', u'Dust', u'Rigs', u'Force', u'Combat', u'Soccer', u'Survivor', u'Tensei', u'Tag', u'Fiction',
-    u'Agents', u'Rumble', u'Fighters', u'Warfighter', u'Dream', u'Republic', u'Crisis', u'Cricket',
-    u'Central', u'Karaoke', u'Empire', u'Commando', u'Stalker', u'League', u'Crashers', u'Darkness',
-    u'Knight', u'Championship', u'Giraffe', u'Yeti', u'D-Day', u'Run', u'Core', u'Fishing', u'Adventure',
-    u'Adventures', u'Hunter', u'Hunting', u'Hitman', u'Friends', u'Rub', u'Racing', u'Gaiden', u'Kombat',
-    u'Shift', u'Excellent', u'Street', u'NFL', u'Quest', u'Hill', u'Emblem', u'Invaders', u'Commander',
-    u'Fury', u'Ransom', u'Showdown', u'Recon', u'Shots', u'Brothers', u'Wolfenstein', u'Shop', u'Sports',
-    u'Mission', u'Front', u'Island', u'Jam', u'Runner', u'Machines', u'Machine', u'Breed', u'Lair', u'Axe',
-    u'Rabbids', u'Feud', u'Alliance', u'Defense Force', u'Kings', u'Eye', u'Master', u'Revolver', u'Time',
-    u'Raid', u'Filter', u'Soldier', u'Army', u'Instinct', u'Hearts', u'Annihilation', u'Stadium', u'Action',
-    u'Village', u'Box', u'Warrior', u'Warriors', u'Fantasy', u'Ruler', u'Center', u'Dave', u'Paint',
-    u'Forest', u'Beat', u'Crossing', u'Bass', u'TV', u'Dawn', u'Mama', u'Skater', u'Pilot', u'Raiders',
-    u'Farm', u'Shock', u'Origins', u'Underworld', u'Scrolls', u'Colossus', u'Mask', u'Snowboarding',
+crangers = [
+    u'Power Rangers Super Megaforce',
+]
+
+ckamen = [
+    u'Kamen Rider Drive',
+]
+
+senparticles_a = [
+    u'Dark', u'Steel', u'Modern', u'Virtua', u'Burning', u'Half', u'Dead', u'Demon', u'Iron',
+]
+
+senparticles_b = [
     u'Neptunia', u'Snap', u'Dash', u'Attorney', u'Conquest', u'Drinker', u'Legacy', u'Fractions', u'Please', u'Within',
     u'Trading Card Game',
 ]
 
-name = [
+kamparticles_a = [
+    u'Dark', u'Steel', u'Modern', u'Virtua', u'Burning', u'Half', u'Dead', u'Demon', u'Iron',
+]
+
+movie = [
     u'Ultimate %s', u'The %s', u'%s', u'%s: Reckoning', u'%s 2', u'%s 3', u'%s 4', u'%s 5', u'%s 9',
     u'%s: Episode Three', u'Imagine™ %s', u'%s HD', u'%s with Friends', u'%s: Anniversary', u'%s VII',
-    u'The Legend of %s', u'%s: Evolution', u'Call of Duty: %s', u'%s: Redemption', u'%s United',
-    u'%s! - The Quest for Gravity', u'%s!!! - A Reckless Disregard for Gravity', u'%s: Hot Pursuit',
-    u'%s: Fusion', u'%s: Second Edition', u'%s: Make Blooms Not War', u'%s: Armageddon', u'%s: Guerrilla',
-    u'%s Nitro', u'%s: Vice City', u'Return to %s', u'%s at the Inventory', u'%s: Deathmatch', u'%s 11',
-    u'%s: 1942', u'IL-2 Sturmovik: %s', u'%s+', u'%s: Condition Zero', u'%s Deluxe', u'%s in Trouble',
-    u'%s of Might and Magic', u'%s Classic', u'%s: Invisible War', u'%s: Source', u'%s II', u'%s III',
-    u'%s XIV', u'%s DS', u'%s 64', u'%s: Advanced Pack', u'%s: Team Arena', u'%s: Arena', u'%s 6',
-    u'%s: Ground Zero', u'%s: An Item Shop’s Tale', u'%s 2013', u'%s 2048', u'%s: Shadow of Chernobyl',
-    u'%s: Call of Pripyat', u'Sid Meier’s %s', u'%s: Beyond the Sword', u'%s: Warlords', u'Shogun: %s',
-    u'%s: The Ultimate in Mayonaka Arena', u'The Wonderful %s', u'%s 2004', u'%s 3D', u'%s IV', u'%s V',
-    u'%s: Terror from the Deep', u'Peter Jackson’s %s: The Official Game of the Movie', u'%s VII',
-    u'%s: Championship Edition', u'Super %s', u'%s: Total War', u'%s: Revelations', u'%s: The Game',
-    u'%s: The Movie: The Game', u'%s Fever', u'%s: Tricky', u'%s: Future', u'Where in the World is %s?',
-    u'%s: Blood on the Sand', u'%s: Mercenaries', u'%s!', u'%s!?', u'%s Euromix', u'%s Chronicles',
-    u'%s: Elite', u'Theatrhythm: %s', u'%s: Rio', u'%s Legends', u'%s: Seasons', u'%s in SPACE!',
-    u'%s: Over the Road Racing', u'%s Gemini', u'Elite %s', u'Area 51: %s', u'%s: Touch', u'%s DX',
-    u'No One Can Stop %s', u'Feel the Magic: %s', u'Knights of %s', u'Codename: %s', u'%s ’13',
-    u'%s: Blood Money', u'%s Rearmed', u'%s: Peace Walker', u'%s Remix', u'%s ZX', u'Extreme %s',
-    u'%s Extreme', u'I Wanna Be the %s', u'Escape from %s', u'Batman: %s', u'Cabela’s %s', u'%s: XX/XY',
-    u'Race Driver: %s', u'BlazBlue: %s', u'Need for Speed: %s', u'%s Unlimited', u'%s Z', u'NBA %s',
-    u'Tom Clancy’s %s', u'Spider-Man %s', u'Dynasty Warriors: %s', u'007: %s', u'%s Golf',
-    u'Ratchet & Clank: %s', u'Heroes of %s', u'Dora the Explorer: %s', u'Duke Nukem: %s', u'WWE: %s',
-    u'Littlest %s', u'%s Resort', u'LEGO %s', u'%s Online', u'Command & Conquer: %s', u'%s: Impact',
-    u'Rayman: %s', u'Kane & Lynch: %s', u'%s Wrestling', u'%s Toshinden', u'Ghost Recon: %s', u'%s ’11',
-    u'%s: Tactics', u'Virtual %s', u'Professor Layton and the %s', u'%s Zone', u'%s: The Show',
-    u'NCAA %s', u'%s Advance', u'%s Simulator', u'%s and How it Hits the Forest', u'%s Forever',
-    u'%s at War', u'Tony Hawk %s', u'My %s', u'myNotebook %s', u'%sVille', u'%s: Warped', u'%s Reloaded',
-    u'Buzz! %s', u'%s Jr.', u'%s Rising', u'%s Red Version', u'%s Blue Version', u'%s Zero', u'%s Climax',
-    u'%s at the Olympic Games', u'%s Turbo', u'%s 2000', u'%s 3000', u'%s: Insect Armageddon',
-    u'%s Black Label', u'%s: Touched!', u'%s Gold', u'Ultimate %s', u'%s X', u'%s Y', u'%s + Cats',
-    u'John Woo Presents %s', u'American McGee’s %s', u'John Madden %s', u'%s Pro', u'%s: Isolation',
-    u'%s: The Ultimax Ultra Suplex Hold', u'%s 2K14', u'%s 2K15', u'%s: The Pre-Sequel!',
-    u'Middle-Earth: %s', u'%sBound', u'%sclub', u'%s for Nintendo 3DS', u'%s for Wii U', u'%s: Dangerous',
-    u'%s: Treasure Tracker',
 ]
 
 # should really be split into developer/publisher
-company = [
+actor = [
     u'Lionhead', u'Microsoft', u'Sony', u'Polytron', u'Sega', u'Nintendo', u'Activision', u'EA',
     u'Bioware', u'Bethesda', u'Valve', u'From Software', u'Double Fine', u'Gameloft', u'Zynga', u'22 Cans',
-    u'Carbon Neutral Games', u'Harmonix', u'Neversoft', u'Mojang', u'Dejobaan', u'Telltale Games',
-    u'Oddworld Inhabitants', u'Cipher Prime', u'LucasArts', u'thatgamecompany', u'Access Games',
-    u'Media Molecule', u'Team Meat', u'Rockstar North', u'Team Bondi', u'Bizarre Creations',
-    u'Epic Games', u'Disney Interactive', u'Ubisoft', u'1C Company', u'Konami', u'THQ', u'Atari', u'Capcom',
-    u'Bandai Namco', u'Platinum Games', u'Square Enix', u'Codemasters', u'Majesco', u'Atlus', u'Eidos',
-    u'5th Cell', u'GRIN', u'KOEI', u'Take-Two', u'Tecmo', u'Pony Canyon', u'ValuSoft', u'2K Games',
-    u'Aksys Games', u'EA Sports', u'PopCap', u'Arc System Works', u'Data East', u'Rare', u'Videlectrix',
-    u'The Game Factory', u'MicroProse', u'id', u'Meridian4', u'Digital Leisure', u'Taito', u'SNK Playmore',
-    u'Midway', u'Sierra', u'Banpresto', u'Maxis', u'HAL Laboratory', u'Hudson', u'Sonic Team',
-    u'Vicarious Visions', u'Team17', u'Acclaim', u'SunSoft', u'Crytek', u'Rovio', u'Penny Arcade',
-    u'Runic Games', u'Infinity Ward', u'Insomniac', u'Treyarch', u'Respawn Entertainment',
-    u'Inti Creates', u'Overdrive', u'Supergiant Games', u'2D Boy', u'Twisted Pixel', u'Chronic Logic',
-    u'Eurocom', u'Firefly Studios', u'Frontier Developments', u'Gaijin Games', u'Frictional Games',
-    u'Grasshopper', u'Introversion', u'Level-5', u'Llamasoft', u'Metanet Software', u'Mousechief',
-    u'Nifflas', u'Playdead', u'Q-Games', u'Queasy Games', u'Studio Pixel', u'Blizzard', u'inXile',
-    u'NCsoft', u'Nippon Ichi Software', u'Rockstar', u'Stardock', u'XSEED Games', u'Two Tribes',
-    u'Traveller’s Tales', u'Naughty Dog', u'WayForward', u'CINEMAX', u'Nnooo', u'Bullfrog',
-    u'Bohemia Interactive', u'Game Freak', u'Sledgehammer Games', u'VectorCell', u'Edge Games',
-    u'Illusion', u'Dark Energy Digital', u'Rising Star Games', u'Quantic Dream', u'Rocksteady Studios',
-    u'DMA Design', u'CCP', u'NetherRealm Studios', u'Warner Brothers', u'Double Helix Games',
-    u'Iron Galaxy Studios', u'The Bartlet Jones Supernatural Detective Agency',
 ]
 
-luminary = [
+suitcolour = [
     u'Notch', u'Sid Meier', u'Will Wright', u'Peter Molyneux', u'Hideo Kojima', u'John Vignocchi',
     u'John Drake', u'Shigeru Miyamoto', u'Jeff Minter', u'Kenta Cho', u'Swery', u'Tim Schafer',
-    u'Vince Zampella', u'Jason West', u'John Carmack', u'Phil Fish', u'Jonathan Blow',
-    u'Edmund McMillen', u'David Cage', u'Kim Swift', u'Paul Barnett', u'Ken Levine', u'Warren Spector',
-    u'Chris Hecker', u'Todd Howard', u'American McGee', u'Dan Houser', u'Sam Houser', u'Harvey Smith',
-    u'Masahiro Sakurai', u'Satoshi Tajiri', u'Alexey Pajitnov', u'David Jaffe', u'Shinji Hashimoto',
 ]
 
-critic = [
+zord = [
     u'Jeff Gerstmann', u'Justin McElroy', u'Brad Shoemaker', u'Yahtzee', u'Geoff Keighley',
     u'The Angry Video Game Nerd', u'Patrick Klepek', u'Don Mattrick', u'Anita Sarkeesian',
-    u'TotalBiscuit', u'Jim Sterling', u'PewDiePie', u'Arthur Gies', u'Jeff Green',
-    u'Dan Ryckert',
 ]
 
-publication = [
+senmerch = [
     u'Polygon', u'Kotaku', u'Giant Bomb', u'Destructoid', u'EGM', u'GameSpot', u'GameSpy',
     u'The Escapist', u'IGN', u'Joystiq', u'GameTrailers', u'Rock Paper Shotgun', u'Gamasutra',
-    u'EDGE Magazine', u'Famitsu',
 ]
 
-suit = [
+kammerch = [
     u'Cliff Bleszinski', u'Gabe Newell', u'Steve Ballmer', u'Bobby Kotick', u'Reggie Fils-Aime',
     u'J Allard', u'Yves Guillemot', u'Satoru Iwata', u'Don Mattrick', u'Phil Spencer',
 ]
@@ -160,28 +61,17 @@ community = [
 ]
 
 platform = [
-    u'Neo Geo', u'Super Nintendo', u'Genesis', u'Dreamcast', u'Nintendo 64', u'PlayStation',
-    u'PlayStation 2', u'PlayStation 3', u'Xbox', u'Xbox 360', u'Wii', u'Wii U', u'Atari 2600',
-    u'Nintendo DS', u'Game Boy Color', u'Nintendo 3DS', u'PlayStation Vita', u'PSP',
-    u'PlayStation 4', u'Xbox One', u'iPhone', u'iPad', u'Ouya', u'3DO', u'New Nintendo 3DS',
-    u'GameCube', u'Android', u'Windows Phone',
+    u'PlayStation 3', u'Xbox 360', u'Wii', u'Wii U', u'Nintendo DS', u'Nintendo 3DS', 
+    u'PlayStation Vita', u'PSP', u'PlayStation 4', u'Xbox One', u'iPhone', u'iPad', u'Android', 
+    u'Windows Phone',
 ]
 
-quantity = [
-    u'2', u'42', u'5,000', u'400,000', u'775 million',
-]
-
-peripheral = [
+senbaddie = [
     u'Oculus Rift', u'Power Glove', u'Guitar Hero guitar', u'Kinect',
     u'PlayStation Move', u'Vitality Sensor', u'Novint Falcon', u'dance mat',
-    u'R.O.B.', u'Leap Motion Controller', u'Circle Pad Pro',
-    u'Game Boy Printer', u'Game Boy Camera', u'uDraw', u'Wii Balance Board',
-    u'IllumiRoom', u'Xbox SmartGlass', u'Rumble Pak', u'Buzz! Buzzer',
-    u'Trance Vibrator', u'Pokéwalker', u'Project Morpheus', u'Amiibo', u'Taiko drum',
-    u'Kinect 2.0', u'Link Cable',
 ]
 
-event = [
+kambaddie = [
     u'E3', u'PAX', u'GDC', u'TGS', u'BlizzCon', u'Fanfest', u'EGX', u'Comic-Con',
     u'the PlayStation Experience', u'The Game Awards',
 ]
