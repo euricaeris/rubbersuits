@@ -61,8 +61,39 @@ allseries = senseries + ranseries + kamseries
 senranseries = senseries + ranseries
 
 movie = [
-    u'Ultimate %s', u'The %s', u'%s', u'%s: Reckoning', u'%s 2', u'%s 3', u'%s 4', u'%s 5', u'%s 9',
-    u'%s: Episode Three', u'Imagine™ %s', u'%s HD', u'%s with Friends', u'%s: Anniversary', u'%s VII',
+    u'Bakuryuu Sentai Abaranger DELUXE: Abare Summer is Freezing Cold', u'Bakuryuu Sentai Abaranger vs. Hurricaneger',
+    u'Choudenshi Bioman Movie', u'Chouriki Sentai Ohranger the Movie', u'Chouriki Sentai Ohranger: Ole vs. Kakuranger', 
+    u'Choushinsei Flashman: Big Rally! Titan Boy!', u'Choushinsei Flashman: The Movie', u'Denshi Sentai Denziman Movie', 
+    u'Bakuryuu Sentai Abaranger vs. Hurricaneger', u'Denji Sentai Megaranger vs. Carranger',
+    u'Come Back! Tensou Sentai Goseiger: Last Epic - The Gosei Angels are National Icons!?', u'Dai Sentai Goggle V Movie', 
+    u'Dengeki Sentai Changeman: Shuttle Base! The Critical Moment!', u'Dengeki Sentai Changeman: The Movie', 
+    u'Engine Sentai Go-Onger vs. Gekiranger', u'Engine Sentai Go-Onger: Boom Boom! Bang Bang! GekijōBang!!', 
+    u'Gekisou Sentai Carranger vs. Ohranger', u'GoGo Sentai Boukenger The Movie: The Greatest Precious', 
+    u'GoGo Sentai Boukenger vs. Super Sentai', u'Gokaiger Goseiger Super Sentai 199 Hero Great Battle', 
+    u'Gosei Sentai Dairanger the Movie', u'Hikari Sentai Maskman Movie',  u'Super Sentai World', 
+    u'Himitsu Sentai Gorenger: The Blue Fortress', u'Himitsu Sentai Gorenger: The Bomb Hurricane', 
+    u'Himitsu Sentai Gorenger: The Movie', u'Himitsu Sentai Gorenger: The Red Death Match', 
+    u"Himitsu Sentai Gorenger: The Volcano's Last Big Eruption", u'Hyakujuu Sentai Gaoranger vs. Super Sentai', 
+    u'Hyakujuu Sentai Gaoranger: The Fire Mountain Roars', u'J.A.K.Q. Dengekitai vs. Gorenger',
+    u'J.A.K.Q. Dengekitai: The Movie', u'Juken Sentai Gekiranger vs. Boukenger', u'Seijuu Sentai Gingaman vs. Megaranger',
+    u'Juken Sentai Gekiranger: Nei-Nei! Hou-Hou! Hong Kong Decisive Battle', u'Kagaku Sentai Dynaman Movie', 
+    u'Kaizoku Sentai Gokaiger the Movie: The Flying Ghost Ship', u'Kaizoku Sentai Gokaiger vs. Uchuu Keiji Gavan: The Movie', 
+    u'Kamen Rider × Super Sentai × Space Sheriff: Super Hero Taisen Z', u'Kamen Rider × Super Sentai: Super Hero Taisen', 
+    u'Kousoku Sentai Turboranger the Movie', u'Kyukyu Sentai GoGoFive vs. Gingaman', 
+    u'Kyukyu Sentai GoGoFive: Sudden Shock! A New Warrior', u'Mahou Sentai Magiranger the Movie: Bride of Infershia', 
+    u'Mahou Sentai Magiranger vs. Dekaranger', u'Mirai Sentai Timeranger vs. GoGoFive', 
+    u'Ninpu Sentai Hurricaneger: 10 YEARS AFTER', u'Ninpu Sentai Hurricaneger: Shushuuto the Movie', 
+    u'Ressha Sentai ToQger the Movie: Galaxy Line SOS', u'Samurai Sentai Shinkenger the Movie: The Fateful War', 
+    u'Samurai Sentai Shinkenger vs. Go-Onger: GinmakuBang!!', u'Bakuryuu Sentai Abaranger vs. Hurricaneger', 
+    u'Taiyo Sentai Sun Vulcan Movie', u'Tensou Sentai Goseiger vs. Shinkenger: Epic on Ginmaku', 
+    u'Tensou Sentai Goseiger: Epic on the Movie', u'The Return of Samurai Sentai Shinkenger: Special Act', 
+    u'Toei Hero Daishugō', u'Tokumei Sentai Go-Busters Returns vs. Dōbutsu Sentai Go-Busters',
+    u'Tokumei Sentai Go-Busters the Movie: Protect the Tokyo Enetower!', u'Ninja Sentai Kakuranger the Movie', 
+    u'Tokumei Sentai Go-Busters vs. Kaizoku Sentai Gokaiger: The Movie', 
+    u'Tokusou Sentai Dekaranger the Movie: Full Blast Action', u'Tokusou Sentai Dekaranger vs. Abaranger', 
+    u'Tokusou Sentai Dekaranger: DekaRed vs. DekaBreak', u'Ninpu Sentai Hurricaneger vs. Gaoranger', 
+    u'Zyuden Sentai Kyoryuger vs. Go-Busters: Dinosaur Great Battle! Farewell, Eternal Friends',
+    u'Zyuden Sentai Kyoryuger: 100 YEARS AFTER', u'Zyuden Sentai Kyoryuger: Gaburincho of Music',
 ]
 
 actor = [
@@ -76,8 +107,27 @@ colour = [
 ]
 
 zord = [
-    u'Jeff Gerstmann', u'Justin McElroy', u'Brad Shoemaker', u'Yahtzee', u'Geoff Keighley',
-    u'The Angry Video Game Nerd', u'Patrick Klepek', u'Don Mattrick', u'Anita Sarkeesian',
+    # using http://powerrangers.wikia.com/wiki/Category:Mecha for my deets and sticking to all-ranger mechs when poss
+    u'Variblune', u'Varidreen', u'Sky Ace', u'Battle Fever Robo', u'DaiDenzin', u'Sun Vulcan Robo',
+    u'Goggle Robo', u'DynaRobo', u'BioRobo', u'Change Robo', u'Flash King', u'Great Titan',
+    u'Great Five', u'Galaxy Robo', u'Super Liverobo', u'Super Turbobuilder', u'Super Turbo Robo',
+    u'Maxmagma', u'Super Fiverobo', u'Great Icarus', u'Jet Icarus', u'Ultimate Daizyuzin', u'Zyutei Daizyuzin',
+    u'Shichisei Gattai Heavy Armor Chi Palace', u"Gosei Gattai Dairen'oh", u'Shinsei Gattai Kiba DaiOh', 
+    u'Super Muteki Shogun', u'Super Kakure Daishogun', u'King Pyramider Battle Formation', u'Buster Ohranger Robo',
+    u'OhBlocker', u'RV Robo', u'VRV Robo', u'Scramble Intersection Robo', u'Super Galaxy Mega', u'Wing Mega Voyager',
+    u'Super Armor Shine GingaiOh', u'Galaxy Beast Warrior GingaiOh', u'Steel Starbeast GigaRhinos', u'Steel Starbeast GigaPhoenix',
+    u'Max Victory Robo', u'Max Victory Robo Sigma Project', u'Grand Liner', u'Super Armor Shine Victory Mars', u'TimeRobo Shadow',
+    u'Riding TimeRobo', u'Galaxy Robo', u'Super Liverobo', u'Super Turbobuilder', u'Super Turbo Robo',
+    u'GaoKing', u'GaoMuscle', u'GaoHunter', u'GaoIcarus', u'GaoGod', u'GaoKnight', u'GaoKentaurus',
+    u'Revolver Tenrai Senpuujin', u'Karakuri Giant Tenrai Senpuujin', u'OoAbarenOh', u'MaxRyuuOh', 
+    u'Riding Dekaranger Robo', u'Cho Tokusou Gattai Super Dekaranger Robo', u'Tokusou Gattai Dekaranger Robo', u'Tokusou Gattai DekaWing Robo',
+    u'Dekaranger Robo, Full Blast Custom', u'MagiKing', u'MagiLegend', u'Ultimate DaiBouken', u'DaiBouken', u'DaiTanken',
+    u'Burning Legend DaiVoyager', u'DaiVoyager', u'Voyager DaiBouken', u'SaiDaiGekiRinTohja', u'SaiDaiGekiFire', u'Engine-O G12',
+    u'Engine-O G9', u'Engine-O G6', u'Kyoryu SamuraiHaOh', u'Shin Samurai Gattai DaiKai-ShinkenOh', u'Ground Gosei Great',
+    u'Tensou Gattai Gosei Great', u'Tensou Henkei Gosei Ultimate', u'Kanzen GokaiOh', u'GoZyu GokaiOh', u'Kaizoku Gattai GokaiOh',
+    u'Great Go-Buster', u'Tokumei Gattai Go-BusterOh', u'Cho Kamitsuki Gattai Gigant Kyoryuzin', u'Kyoryuzin Western', u'Kyoryuzin Macho',
+    u'Kyoryuzin Kung Fu', u'Kyoryuzin Baseball', u'Hyper Ressha Gattai ToQ Rainbow', u'Cho Cho Ressha Gattai Cho Cho ToQ-DaiOh', 
+    u'Ressha Gattai Diesel-Oh', u'SafariGaOh', u'Machine Itasha', u'Itasha Boy',
 ]
 
 senmerch = [
