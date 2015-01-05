@@ -1,16 +1,19 @@
 # -*- coding=utf-8 -*-
 
-csentai = [
+sencurrent = [
     u'Ressha Sentai ToQger',
 ]
 
-crangers = [
+rancurrent = [
     u'Power Rangers Super Megaforce',
 ]
 
-ckamen = [
+kamcurrent = [
     u'Kamen Rider Drive',
 ]
+
+allcurrent = sencurrent + rancurrent + kamcurrent
+senrancurrent = sencurrent + rancurrent
 
 senseries = [
     # main series
@@ -54,6 +57,9 @@ kamseries = [
     u'Masked Rider', u'Kamen Rider: Dragon Knight',
 ]
 
+allseries = senseries + ranseries + kamseries
+senranseries = senseries + ranseries
+
 movie = [
     u'Ultimate %s', u'The %s', u'%s', u'%s: Reckoning', u'%s 2', u'%s 3', u'%s 4', u'%s 5', u'%s 9',
     u'%s: Episode Three', u'Imagine™ %s', u'%s HD', u'%s with Friends', u'%s: Anniversary', u'%s VII',
@@ -64,7 +70,7 @@ actor = [
     u'Bioware', u'Bethesda', u'Valve', u'From Software', u'Double Fine', u'Gameloft', u'Zynga', u'22 Cans',
 ]
 
-suitcolour = [
+colour = [
     u'Red', u'Blue', u'Yellow', u'Pink', u'Green', u'Black', u'White', u'Silver', u'Gold', u'Violet', 
     u'Orange', u'Cyan', u'Gray',
 ]
@@ -83,6 +89,8 @@ kammerch = [
     u'Cliff Bleszinski', u'Gabe Newell', u'Steve Ballmer', u'Bobby Kotick', u'Reggie Fils-Aime',
     u'J Allard', u'Yves Guillemot', u'Satoru Iwata', u'Don Mattrick', u'Phil Spencer',
 ]
+
+merch = senmerch + kammerch
 
 community = [
     u'4chan', u'Reddit', u'NeoGAF', u'Twitter', u'2ch',
@@ -104,8 +112,20 @@ kambaddie = [
     u'the PlayStation Experience', u'The Game Awards',
 ]
 
+allbaddie = senbaddie + kambaddie
+
 story = [
-    u'Lets be honest, <ranseries> is A LOT better than the Sentai version.',
-    u'Enraged fans are petitioning <company> to “fix” the ending of <game>.',
-    u'<company> have announced a Kickstarter campaign to fund the development of <game>.',
+    # terrible twitter user
+    u"Let's be honest, <ranseries> is A LOT better than the Sentai version.",
+    u"I don't really have a problem with people who like <allseries>, but you have to admit the show is a bit fucking stupid.",
+    u"My fondest memory of <kamseries> was when I was caught wearing the belt when I went bowling with friends.",
+    u"You know what will make <sencurrent> better? Another <colour> ranger, that's what.",
+    u"After watching Gaim, I just can't get into <kamcurrent>. It's just not the same.",
+    u"Just imagine if Urobuchi wrote <senseries>. Think about it.",
+    u"I just bought a <merch> to show just how much I love <allseries>.",
+    
+    # Hot fake news
+    u"NEWS: Saban has announced that a game based on <ranseries> will be coming to <platform> next year.",
+    u"NEWS: The next Power Rangers project will feature footage from <senseries>.",
+    u"NEWS: The ever-popular <senmerch> will be on sale for the first time early next year.",
 ]
