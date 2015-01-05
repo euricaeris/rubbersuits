@@ -123,9 +123,9 @@ monster = [
     u'an eagle', u'an owl', u'a toucan', u'a duck', u'a flamingo', u'a penguin', u'a crocodile', u'a turtle',
     u'a chameleon', u'a gecko', u'a komodo dragon', u'a frog', u'a toad', u'a salamander', u'a manta ray', u'a shark',
     u'an electric eel', u'a piranha', u'a clownfish', u'a millipede', u'a cockroach', u'a giant isopod', u'a scorpion', 
-    u'a starfish', u'a crab', u'a jellyfish', u'a chinchilla', u'a t-rex', u'a pterodactyl', u'a skunk', u'a dragon',
+    u'a starfish', u'a crab', u'a jellyfish', u'a chinchilla', u'a skunk', u'a dragon', u'a slug', u'a snail',
     # other things
-    u'the seasons', u'Christmas', u'Easter', u'God', u'technology', u'a ghost', 
+    u'a ghost', u'a vampire', u'a zombie', u'a car', u'a boat', u'a werewolf', 
 ]
 
 story = [
@@ -140,4 +140,8 @@ story = [
     u"In a revealing interview, <actor> talks about the time they battled with suit chafe on the set of <allseries>.",
     u"<actor> leaves the tokusatsu fandom embarassed after revealing that the actors of <allseries> were “unbearably pungent”.",
     u"The latest episode of <kamcurrent> will feature a monster based on <monster>, if leaked set pictures are to be believed.",
+    u"The next Kamen Rider is rumoured to have <monster> motif.",
+    u"Fans have voted for their favourite monster of all-time: the cross between <monster_a> and <monster_b> from <allseries>.",
+    u"No more dinosaurs! Fans have voted that they want to see <monster> theme in the next Super Sentai series.",
+    u"<actor> recalls the time when filming halted on the set of <allseries>, due to the interference of <monster>.",
 ]
