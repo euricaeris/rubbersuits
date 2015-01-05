@@ -114,18 +114,30 @@ kambaddie = [
 
 allbaddie = senbaddie + kambaddie
 
+monster = [
+    # animals
+    u'a snake', u'a cow', u'a dog', u'a cat', u'a lion', u'a tiger', u'a goat', u'a squid', u'a giraffe',
+    u'a koala', u'a kangaroo', u'a wolf', u'a fox', u'an otter', u'a bear', u'a ferret', u'a jaguar', u'a rhino',
+    u'a deer', u'a cheetah', u'a meerkat', u'a gorilla', u'a chimpanzee', u'an orangutan', u'an elephant', u'a gazelle',
+    u'a hippo', u'a zebra', u'a bat', u'a porcupine', u'a hedgehog', u'an ant', u'a spider', u'a hawk', u'a tarantula',
+    u'an eagle', u'an owl', u'a toucan', u'a duck', u'a flamingo', u'a penguin', u'a crocodile', u'a turtle',
+    u'a chameleon', u'a gecko', u'a komodo dragon', u'a frog', u'a toad', u'a salamander', u'a manta ray', u'a shark',
+    u'an electric eel', u'a piranha', u'a clownfish', u'a millipede', u'a cockroach', u'a giant isopod', u'a scorpion', 
+    u'a starfish', u'a crab', u'a jellyfish', u'a chinchilla', u'a t-rex', u'a pterodactyl', u'a skunk', u'a dragon',
+    # other things
+    u'the seasons', u'Christmas', u'Easter', u'God', u'technology', u'a ghost', 
+]
+
 story = [
-    # terrible twitter user
-    u"Let's be honest, <ranseries> is A LOT better than the Sentai version.",
-    u"I don't really have a problem with people who like <allseries>, but you have to admit the show is a bit fucking stupid.",
-    u"My fondest memory of <kamseries> was when I was caught wearing the belt when I went bowling with friends.",
-    u"You know what will make <sencurrent> better? Another <colour> ranger, that's what.",
-    u"After watching Gaim, I just can't get into <kamcurrent>. It's just not the same.",
-    u"Just imagine if Urobuchi wrote <senseries>. Think about it.",
-    u"I just bought a <merch> to show just how much I love <allseries>.",
-    
-    # Hot fake news
-    u"NEWS: Saban has announced that a game based on <ranseries> will be coming to <platform> next year.",
-    u"NEWS: The next Power Rangers project will feature footage from <senseries>.",
-    u"NEWS: The ever-popular <senmerch> will be on sale for the first time early next year.",
+   # Hot fake news
+    u"Saban has announced that a game based on <ranseries> will be coming to <platform> next year.",
+    u"The next Power Rangers project will feature footage from <senseries>.",
+    u"The ever-popular <senmerch> will be on sale for the first time early next year.",
+    u"<actor> has declined to comment on their opinion of <rancurrent>.",
+    u"<actor> has been confirmed to be making a guest appearance on <rancurrent>.",
+    u"A Saban spokesperson has said that they are refraining from using <senseries> footage due to the lack of a <colour> ranger.",
+    u"A Saban employee has stated on <community> that <senseries> “simply doesn't have enough explosions”.",
+    u"In a revealing interview, <actor> talks about the time they battled with suit chafe on the set of <allseries>.",
+    u"<actor> leaves the tokusatsu fandom embarassed after revealing that the actors of <allseries> were “unbearably pungent”.",
+    u"The latest episode of <kamcurrent> will feature a monster based on <monster>, if leaked set pictures are to be believed.",
 ]
