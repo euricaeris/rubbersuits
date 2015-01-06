@@ -143,7 +143,7 @@ kammerch = [
 merch = senmerch + kammerch
 
 community = [
-    u'4chan', u'Reddit', u'NeoGAF', u'Twitter', u'2ch',
+    u'4chan', u'Reddit', u'NeoGAF', u'Twitter', u'2ch', u'Orends Range', u'The Tokusatsu Network', u'Over-Ti.me', u'JEFusion', 
 ]
 
 platform = [
@@ -152,17 +152,37 @@ platform = [
     u'Windows Phone',
 ]
 
-senbaddie = [
+senbadgroup = [
     u'Oculus Rift', u'Power Glove', u'Guitar Hero guitar', u'Kinect',
     u'PlayStation Move', u'Vitality Sensor', u'Novint Falcon', u'dance mat',
 ]
 
-kambaddie = [
+ranbadgroup = [
+    u'Oculus Rift', u'Power Glove', u'Guitar Hero guitar', u'Kinect',
+    u'PlayStation Move', u'Vitality Sensor', u'Novint Falcon', u'dance mat',
+]
+
+kambadgroup = [
+    u'Oculus Rift', u'Power Glove', u'Guitar Hero guitar', u'Kinect',
+    u'PlayStation Move', u'Vitality Sensor', u'Novint Falcon', u'dance mat',
+]
+
+senbadperson = [
     u'E3', u'PAX', u'GDC', u'TGS', u'BlizzCon', u'Fanfest', u'EGX', u'Comic-Con',
     u'the PlayStation Experience', u'The Game Awards',
 ]
 
-allbaddie = senbaddie + kambaddie
+ranbadperson = [
+    u'E3', u'PAX', u'GDC', u'TGS', u'BlizzCon', u'Fanfest', u'EGX', u'Comic-Con',
+    u'the PlayStation Experience', u'The Game Awards',
+]
+
+kambadperson = [
+    u'E3', u'PAX', u'GDC', u'TGS', u'BlizzCon', u'Fanfest', u'EGX', u'Comic-Con',
+    u'the PlayStation Experience', u'The Game Awards',
+]
+
+allbadgroup = senbadgroup + ranbadgroup + kambadgroup
 
 monster = [
     # animals
@@ -175,7 +195,7 @@ monster = [
     u'an electric eel', u'a piranha', u'a clownfish', u'a millipede', u'a cockroach', u'a giant isopod', u'a scorpion', 
     u'a starfish', u'a crab', u'a jellyfish', u'a chinchilla', u'a skunk', u'a dragon', u'a slug', u'a snail',
     # other things
-    u'a ghost', u'a vampire', u'a zombie', u'a car', u'a boat', u'a werewolf', 
+    u'a ghost', u'a vampire', u'a zombie', u'a car', u'a boat', u'a werewolf', u'a dream', u'a bowl of spaghetti',
 ]
 
 story = [
