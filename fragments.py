@@ -182,6 +182,7 @@ kambadperson = [
 ]
 
 allbadgroup = senbadgroup + ranbadgroup + kambadgroup
+allbadperson = senbadperson + ranbadperson + kambadperson
 
 monster = [
     # animals
@@ -225,4 +226,5 @@ story = [
     u"Random thoughts: How long until the inevitable Super <ranseries>?",
     u"Random thoughts: <kamseries> would have been better with <allmerch>.",
     u"Random thoughts: The <zord> would have been better with <monster> motif.",
+    u"Just found some <allbadperson_a> x <allbadperson_b> fanfiction. As Alpha would say, “Ai yi yi”.",
 ]
