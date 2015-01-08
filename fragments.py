@@ -131,19 +131,18 @@ zord = [
 ]
 
 senmerch = [
-    u'Polygon', u'Kotaku', u'Giant Bomb', u'Destructoid', u'EGM', u'GameSpot', u'GameSpy',
-    u'The Escapist', u'IGN', u'Joystiq', u'GameTrailers', u'Rock Paper Shotgun', u'Gamasutra',
+    u'beast batteries', u'trains', u'morphin braces', 
 ]
 
 kammerch = [
-    u'Cliff Bleszinski', u'Gabe Newell', u'Steve Ballmer', u'Bobby Kotick', u'Reggie Fils-Aime',
-    u'J Allard', u'Yves Guillemot', u'Satoru Iwata', u'Don Mattrick', u'Phil Spencer',
+    u'lock seeds', u'shift cars', u'core medals', 
 ]
 
-merch = senmerch + kammerch
+allmerch = senmerch + kammerch
 
 community = [
-    u'4chan', u'Reddit', u'NeoGAF', u'Twitter', u'2ch', u'Orends Range', u'The Tokusatsu Network', u'Over-Ti.me', u'JEFusion', 
+    u'4chan', u'Reddit', u'NeoGAF', u'Twitter', u'2ch', u'Orends Range', u'The Tokusatsu Network', 
+    u'Over-Ti.me', u'JEFusion', 
 ]
 
 platform = [
@@ -214,4 +213,16 @@ story = [
     u"Fans have voted for their favourite monster of all-time: the cross between <monster_a> and <monster_b> from <allseries>.",
     u"No more dinosaurs! Fans have voted that they want to see <monster> theme in the next Super Sentai series.",
     u"<actor> recalls the time when filming halted on the set of <allseries>, due to the interference of <monster>.",
+    u"Fans have voted <allcurrent> the worst toku show currently airing.",
+    u"<allseries_a> is unlikely to see a DVD release in the west, due to the poor reception of <allseries_b>.",
+    # Excuses for mixing and matching
+    u"Dream scenario of the day: What if the <colour> ranger from <senranseries> was attacked by <monster> monster?",
+    u"Dream scenario of the day: What if there was a <senseries> crossover movie with <kamseries>?",
+    u"Dream scenario of the day: What would win in a fight? <zord_a> or <zord_b>?",
+    u"Favourite toku moments: When during <kamseries> people were being attacked by <monster>.",
+    u"Favourite toku moments: When the <colour> ranger joined in <senranseries>.",
+    u"Favourite toku moments: Seeing <zord> for the first time and noticing it looks a bit like <monster>.",
+    u"Random thoughts: How long until the inevitable Super <ranseries>?",
+    u"Random thoughts: <kamseries> would have been better with <allmerch>.",
+    u"Random thoughts: The <zord> would have been better with <monster> motif.",
 ]
