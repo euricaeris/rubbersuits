@@ -106,6 +106,56 @@ colour = [
     u'Orange', u'Cyan', u'Gray',
 ]
 
+sensuitname = [
+    u'Red', u'Blue', u'Yellow', u'Pink', u'Green', u'Black', u'White', u'Silver', u'Gold', u'Violet', 
+    u'Orange', u'Cyan', u'Gray',
+]
+
+ransuitname = [
+    u'Red', u'Blue', u'Yellow', u'Pink', u'Green', u'Black', u'White', u'Silver', u'Gold', u'Violet', 
+    u'Orange', u'Cyan', u'Gray',
+]
+
+kamsuitname = [
+    u'Kamen Rider 1', u'Kamen Rider 2', u'Kamen Rider V3', u'Riderman', u'Kamen Rider X', u'Kamen Rider Amazon',
+    u'Kamen Rider Stronger', u'Electro-Wave Human Tackle', u'Skyrider', u'Kamen Rider Super-1', u'Kamen Rider ZX',
+    u'Kamen Rider Black', u'Kamen Rider Black RX', u'Kamen Rider Shin', u'Kamen Rider ZO', u'Kamen Rider J',
+    u'Kamen Rider Kuuga', u'Kamen Rider Agito', u'Kamen Rider G3', u'Kamen Rider G3-X', u'Kamen Rider G3 Mild',
+    u'Kamen Rider Gills', u'Another Agito', u'V1', u'Kamen Rider G4', u'Kamen Rider Ryuki', u'Kamen Rider Knight',
+    u'Kamen Rider Scissors', u'Kamen Rider Zolda', u'Kamen Rider Raia', u'Kamen Rider Gai', u'Kamen Rider Ouja',
+    u'Kamen Rider Tiger', u'Kamen Rider Imperer', u'Kamen Rider Odin', u'Alternative Zero', u'Alternative',
+    u'Kamen Rider Femme', u'Kamen Rider Ryuga', u'Kamen Rider Verde', u'Kamen Rider Faiz', u'Kamen Rider Kaixa',
+    u'Kamen Rider Delta', u'Kamen Rider Psyga', u'Kamen Rider Orga', u'Kamen Rider Blade', u'Kamen Rider Garren',
+    u'Kamen Rider Chalice', u'Kamen Rider Leangle', u'Kamen Rider Glaive', u'Kamen Rider Larc', u'Kamen Rider Lance',
+    u'Kamen Rider Hibiki', u'Kamen Rider Ibuki', u'Kamen Rider Todoroki', u'Kamen Rider Zanki', u'Kamen Rider Danki',
+    u'Kamen Rider Sabaki', u'Kamen Rider Eiki', u'Kamen Rider Shouki', u'Kamen Rider Shuki', u'Kamen Rider Amaki',
+    u'Kamen Rider Kyoki', u'Kamen Rider Kabuki', u'Kamen Rider Tohki', u'Kamen Rider Kirameki', u'Kamen Rider Nishiki',
+    u'Kamen Rider Habataki', u'Kamen Rider Mujaki', u'Kamen Rider Jaki', u'Kamen Rider Kagayaki', u'Kamen Rider Riki',
+    u'Kamen Rider Yūki', u'Kamen Rider Akatsuki', u'Kamen Rider Gouki', u'Kamen Rider Banki', u'Kamen Rider Toki',
+    u'Kamen Rider Michibiki', u'Kamen Rider Fubuki', u'Kamen Rider Kachidoki', u'Kamen Rider Genki', u'Kamen Rider Kabuto',
+    u'Kamen Rider TheBee', u'Kamen Rider Drake', u'Kamen Rider Sasword', u'Kamen Rider Gatack', u'Kamen Rider KickHopper',
+    u'Kamen Rider PunchHopper', u'Kamen Rider Dark Kabuto', u'Kamen Rider Caucasus', u'Kamen Rider Hercus', u'Kamen Rider Ketaros',
+    u'Kamen Rider Den-O Sword', u'Kamen Rider Den-O Rod', u'Kamen Rider Den-O Ax', u'Kamen Rider Den-O Gun', u'Kamen Rider Den-O Wing',
+    u'Kamen Rider Den-O Liner', u'Kamen Rider Zenoros', u'Kamen Rider Zeneros Vega', u'Kamen Rider Gaoh', u'Kamen Rider Mini Den-O',
+    u'Kamen Rider Nega Den-O', u'Kamen Rider Yuuki Skull', u'Kamen Rider Yuuki Hijack', u'Kamen Rider New Den-O', u'Kamen Rider G Den-O',
+    u'Kamen Rider Kiva', u'Kamen Rider Ixa', u'Kamen Rider Proto Ixa', u'Kamen Rider Saga', u'Kamen Rider Dark Kiva',
+    u'Kamen Rider New Kiva', u'Kamen Rider Rey', u'Kamen Rider Arc', u'Kamen Rider Decade', u'Kamen Rider Diend',
+    u'Kamen Rider Kiva-La', u'Kamen Rider G', u'Kamen Rider Double', u'Kamen Rider Accel', u'Kamen Rider Joker',
+    u'Kamen Rider Cyclone', u'Kamen Rider Skull', u'Kamen Rider Eternal', u'Kamen Rider Core', u'Kamen Rider OOO',
+    u'Kamen Rider Birth', u'Kamen Rider Birth Prototype', u'Kamen Rider Poseidon', u'Kamen Rider Aqua', u'Kamen Rider Fourze',
+    u'Kamen Rider Meteor', u'Kamen Rider Nadeshiko', u'Kamen Rider Wizard', u'Kamen Rider Wiseman', u'Kamen Rider Beast',
+    u'Kamen Rider Mage', u'Kamen Rider Sorcerer', u'Kamen Rider Dark Wizard', u'Kamen Rider Gaim', u'Kamen Rider Gaim Yami',
+    u'Kamen Rider Baron', u'Kamen Rider Ryugen', u'Kamen Rider Ryugen Yomi', u'Kamen Rider Zangetsu', u'Kamen Rider Gridon',
+    u'Kamen Rider Kurokage', u'Kamen Rider Bravo', u'Kamen Rider Knuckle', u'Kamen Rider Fifteen', u'Kamen Rider Mars',
+    u'Kamen Rider Jam', u'Kamen Rider Kamuro', u'Kamen Rider Idun', u'Kamen Rider Zangetsu Shin', u'Kamen Rider Duke',
+    u'Kamen Rider Sigurd', u'Kamen Rider Marika', u'Kamen Rider Kurokage Shin', u'Kamen Rider Tyrant', u'Kamen Rider Drive',
+    u'Kamen Rider Mach', u'Kamen Rider Proto Drive', u'Kamen Rider Lupin', u'Kamen Rider 3', 
+    # That one American version that ran for a bit
+    u'Kamen Rider Dragon Knight', u'Kamen Rider Wing Knight', u'Kamen Rider Incisor', u'Kamen Rider Torque', u'Kamen Rider Camo',
+    u'Kamen Rider Strike', u'Kamen Rider Thrust', u'Kamen Rider Sting', u'Kamen Rider Axe', u'Kamen Rider Spear',
+    u'Kamen Rider Siren', u'Kamen Rider Wrath', u'Kamen Rider Onyx', u'Advent Master',
+]
+
 zord = [
     # using http://powerrangers.wikia.com/wiki/Category:Mecha for my deets and sticking to all-ranger mechs when poss
     u'Variblune', u'Varidreen', u'Sky Ace', u'Battle Fever Robo', u'DaiDenzin', u'Sun Vulcan Robo',
@@ -230,6 +280,7 @@ story = [
     u"<actor> recalls the time when filming halted on the set of <allseries>, due to the interference of <monster>.",
     u"Fans have voted <allcurrent> the worst toku show currently airing.",
     u"<allseries_a> is unlikely to see a DVD release in the west, due to the poor reception of <allseries_b>.",
+    u"Kamen Rider is rumoured to be heading west once again, starting with an adaptation of <kamseries>.",
     # Excuses for mixing and matching
     u"Dream scenario of the day: What if the <colour> ranger from <senranseries> was attacked by <monster> monster?",
     u"Dream scenario of the day: What if there was a <senseries> crossover movie with <kamseries>?",
@@ -241,5 +292,6 @@ story = [
     u"Random thoughts: <kamseries> would have been better with <allmerch>.",
     u"Random thoughts: The <zord> would have been better with <monster> motif.",
     u"Just found some <allbadperson_a> x <allbadperson_b> fanfiction. As Alpha would say, “Ai yi yi”.",
+    u"Sometimes I wish Kamen Rider had giant robots. I mean, just imagine <kamseries> stompin' fools in the <zord>.",
     # clinically dead and cryogenically sustained
 ]
