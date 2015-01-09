@@ -131,6 +131,11 @@ zord = [
 ]
 
 senmerch = [
+    # using http://powerrangers.wikia.com/wiki/Super_Sentai and up to and inc no. 20
+    u'formfitting electronic battlesuits', u'strengthening capsules', u'battleceivers', u'denzi rings', 
+    u'vulcan braces', u'goggle braces', u'dyna braces', u'techno braces', u'change braces', u'prism flash',
+    u'masking braces', u'twin braces', u'turbo braces', u'v-changers', u'cross changers', u'dino bucklers',
+    u'aura changers', u'kiba changers', u'doron changers', u'power braces', u'king braces', u'accel changers',
     u'beast batteries', u'trains', u'morphin braces', 
 ]
 
@@ -152,8 +157,12 @@ platform = [
 ]
 
 senbadgroup = [
-    u'Oculus Rift', u'Power Glove', u'Guitar Hero guitar', u'Kinect',
-    u'PlayStation Move', u'Vitality Sensor', u'Novint Falcon', u'dance mat',
+    u'Black Cross Army', u'Criminal Organization Crime', u'Secret Society Egos', u'Vader Clan',
+    u'Machine Empire Black Magma', u'Dark Science Empire Deathdark', u'Tailed People Clan Jashinka Empire', 
+    u'Neo Empire Gear', u'Great Star League Gozma', u'Reconstructive Experiment Empire Mess', u'Underground Empire Tube',
+    u'Armed Brain Army Volt', u'Hundred Boma Tribes', u'Silver Imperial Army Zone', u'Dimensional War Party Vyram',
+    u'The Bandora Gang', u'The Gorma Tribe', u'The Youkai Army Corps', u'Machine Empire Baranoia', 
+    u'Universal Reckless Driving Tribe Bowzock', u'', u'',
 ]
 
 ranbadgroup = [
@@ -167,12 +176,17 @@ kambadgroup = [
 ]
 
 senbadperson = [
-    u'E3', u'PAX', u'GDC', u'TGS', u'BlizzCon', u'Fanfest', u'EGX', u'Comic-Con',
-    u'the PlayStation Experience', u'The Game Awards',
+    u'Black Cross Führer', u'Shine', u'Boss Iron Claw', u'Satan Egos', u'Queen Hedrian', u'Führer Hell Saturn', 
+    u'The Omnipotent God', u'Führer Taboo', u'General Deathgiller', u'Emperor Aton', u'General Kar', u'Doctor Man',
+    u'Star King Bazeu', u'Great Emperor Lah Deus', u'Great Doctor Lie Köpflen', u'Great Emperor Lah Deus',
+    u'Earth Emperor Zeba', u'Doctor Hoshi', u'Great Professor Bias', u'Great Boma Emperor Lagorn', u'Galactic Super Beast Vulgyre',
+    u'Galactic Empress Meadow', u'Back Dimensional Count Radiguet', u'Emperor Tranza', u'Great Satan', u'Witch Bandora',
+    u'Gorma Emperor XV', u'Lieutenant Colonel Shadam', u'Daimaou', u'Emperor Bacchus Wrath', u'Empress Hysteria',
+    u'Reckless Dash Emperor Exhaus', u'President Gynamo', u'Daimaou', u'Emperor Bacchus Wrath', u'Empress Hysteria',
 ]
 
 ranbadperson = [
-    u'E3', u'PAX', u'GDC', u'TGS', u'BlizzCon', u'Fanfest', u'EGX', u'Comic-Con',
+    u'Lord Zedd', u'PAX', u'GDC', u'TGS', u'BlizzCon', u'Fanfest', u'EGX', u'Comic-Con',
     u'the PlayStation Experience', u'The Game Awards',
 ]
 
@@ -227,4 +241,5 @@ story = [
     u"Random thoughts: <kamseries> would have been better with <allmerch>.",
     u"Random thoughts: The <zord> would have been better with <monster> motif.",
     u"Just found some <allbadperson_a> x <allbadperson_b> fanfiction. As Alpha would say, “Ai yi yi”.",
+    # clinically dead and cryogenically sustained
 ]
