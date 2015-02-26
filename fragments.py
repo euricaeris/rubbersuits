@@ -1,7 +1,7 @@
 # -*- coding=utf-8 -*-
 
 sencurrent = [
-    u'Ressha Sentai ToQger',
+    u'Shuriken Sentai Ninninger',
 ]
 
 rancurrent = [
