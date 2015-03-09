@@ -97,8 +97,15 @@ movie = [
 ]
 
 actor = [
-    u'Lionhead', u'Microsoft', u'Sony', u'Polytron', u'Sega', u'Nintendo', u'Activision', u'EA',
-    u'Bioware', u'Bethesda', u'Valve', u'From Software', u'Double Fine', u'Gameloft', u'Zynga', u'22 Cans',
+    # mostly kamen rider
+    u'Hiroshi Fujioka', u'Takeshi Sasaki', u'Tetsuya Nakayashiki', u'Seiji Takaiwa', u'Satoshi Fujita',
+    u'Jiro Okamoto', u'Kenji Tominaga', u'Makoto Ito', u'Yoshifumi Oshikawa', u'Hisanori Ōiwa', 
+    u'Jun Watanabe', u'Hirofumi Fukuzawa', u'Toshihiro Ogura', u'Kazutoshi Yokoyama', u'Yugo Fujii',
+    u'Sanae Hitomi', u'Yasuhiko Imai',
+    # mostly super duper sentai
+    u'Kazuo Niibori',, u'Kenji Ohba', u'Yoshinori Okamoto', u'Jyunichi Haruta', u'Tsutomu Kitagawa',
+    u'Lisa Komaki', u'Naoki Ofuji', u'Shoji Hachisuka', u'Minoru Watanabe', u'Hideaki Kusaka', 
+    u'Naoko Kamio', u'Yasuhiro Takeuchi', u'Riichi Seike',
 ]
 
 colour = [
@@ -177,23 +184,32 @@ zord = [
     u'Tensou Gattai Gosei Great', u'Tensou Henkei Gosei Ultimate', u'Kanzen GokaiOh', u'GoZyu GokaiOh', u'Kaizoku Gattai GokaiOh',
     u'Great Go-Buster', u'Tokumei Gattai Go-BusterOh', u'Cho Kamitsuki Gattai Gigant Kyoryuzin', u'Kyoryuzin Western', u'Kyoryuzin Macho',
     u'Kyoryuzin Kung Fu', u'Kyoryuzin Baseball', u'Hyper Ressha Gattai ToQ Rainbow', u'Cho Cho Ressha Gattai Cho Cho ToQ-DaiOh', 
-    u'Ressha Gattai Diesel-Oh', u'SafariGaOh', u'Machine Itasha', u'Itasha Boy',
+    u'Ressha Gattai Diesel-Oh', u'SafariGaOh', u'Machine Itasha', u'Itasha Boy', u'Shurikenjin', u'King Shurikenjin',
 ]
 
-senmerch = [
+senmorphers = [
     # using http://powerrangers.wikia.com/wiki/Super_Sentai and up to and inc no. 20
     u'formfitting electronic battlesuits', u'strengthening capsules', u'battleceivers', u'denzi rings', 
     u'vulcan braces', u'goggle braces', u'dyna braces', u'techno braces', u'change braces', u'prism flash',
     u'masking braces', u'twin braces', u'turbo braces', u'v-changers', u'cross changers', u'dino bucklers',
     u'aura changers', u'kiba changers', u'doron changers', u'power braces', u'king braces', u'accel changers',
-    u'beast batteries', u'trains', u'morphin braces', 
+    u'gaburivolvers', u'ToQ changers', u'morphin braces', u'ninja ichibantou', 
 ]
 
-kammerch = [
-    u'lock seeds', u'shift cars', u'core medals', 
+sencollect = [
+    # using http://powerrangers.wikia.com/wiki/Category:Collectible_Devices
+    u'gao jewels', u'karakuri balls', u'souls', u'secret disks', u'gosei cards', 
+    u'ranger keys', u'beast batteries', u'trains', u'nin shuriken', u'ludicrous power', 
 ]
 
-allmerch = senmerch + kammerch
+kamcollect = [
+    # using http://kamenrider.wikia.com/wiki/Category%3ACollectible_Devices
+    u'advent cards', u'mission memories', u'rouze cards', u'disk animals', u'zecters', 
+    u'rider tickets', u'fuestles', u'rider cards', u'gaia memories', u'O medals', 
+    u'astroswitches', u'wizard rings', u'lockseeds', u'shift cars', u'signal bikes', 
+]
+
+allcollect = sencollect + kamcollect
 
 community = [
     u'4chan', u'Reddit', u'NeoGAF', u'Twitter', u'2ch', u'Orends Range', u'The Tokusatsu Network', 
@@ -266,7 +282,7 @@ story = [
    # Hot fake news
     u"Saban has announced that a game based on <ranseries> will be coming to <platform> next year.",
     u"The next Power Rangers project will feature footage from <senseries>.",
-    u"The ever-popular <senmerch> will be on sale for the first time early next year.",
+    u"The ever-popular <sencollect> will be on sale for the first time early next year.",
     u"<actor> has declined to comment on their opinion of <rancurrent>.",
     u"<actor> has been confirmed to be making a guest appearance on <rancurrent>.",
     u"A Saban spokesperson has said that they are refraining from using <senseries> footage due to the lack of a <colour> ranger.",
@@ -289,7 +305,7 @@ story = [
     u"Favourite toku moments: When the <colour> ranger joined in <senranseries>.",
     u"Favourite toku moments: Seeing <zord> for the first time and noticing it looks a bit like <monster>.",
     u"Random thoughts: How long until the inevitable Super <ranseries>?",
-    u"Random thoughts: <kamseries> would have been better with <allmerch>.",
+    u"Random thoughts: <kamseries> would have been better with <allcollect>.",
     u"Random thoughts: The <zord> would have been better with <monster> motif.",
     u"Just found some <allbadperson_a> x <allbadperson_b> fanfiction. As Alpha would say, “Ai yi yi”.",
     u"Sometimes I wish Kamen Rider had giant robots. I mean, just imagine <kamseries> stompin' fools in the <zord>.",
